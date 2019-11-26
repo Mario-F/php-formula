@@ -25,5 +25,5 @@ php_fpm_conf_config:
         - name: {{ php.lookup.fpm.pools }}
         - user: root
         - group: root
-        - file_mode: 755
+        - mode: 755
         - make_dirs: True
